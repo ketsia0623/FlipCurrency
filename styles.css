@@ -41,10 +41,10 @@ body {
 
 
 
-
 footer {
     flex-wrap: wrap;
     position: relative;
-    align-content: center;
+    align-content:center;
     margin-top: 50%;
+    margin-left: 45%;
 }
