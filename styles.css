@@ -1,16 +1,7 @@
 body {
-    background-image: repeating-radial-gradient(
-        circle at center center,
-        rgb(252,248,255) 0px,
-        rgb(252,248,255) 50px,
-        rgb(173,151,246) 50px,
-        rgb(173,151,246) 128px,
-        rgb(181,159,226) 128px,
-        rgb(181,159,226) 157px,
-        rgb(211,189,233) 157px,
-        rgb(211,189,233) 184px
-    );
-    background-size: 77px 77px;
+    background-image: repeating-radial-gradient(circle at center center, rgb(249, 249, 249) 0px, 
+    rgb(249, 249, 249) 40px,rgb(196, 196, 196) 40px, rgb(196, 196, 196) 48px,
+    rgb(142, 142, 142) 48px, rgb(142, 142, 142) 57px); background-size: 58px 58px;
 }
 
 .diamond-background {
@@ -46,4 +37,14 @@ body {
 @keyframes float {
   0% { transform: translateY(0) rotate(45deg); }
   100% { transform: translateY(-40px) rotate(45deg); }
+}
+
+
+
+
+footer {
+    flex-wrap: wrap;
+    position: relative;
+    align-content: center;
+    margin-top: 50%;
 }
